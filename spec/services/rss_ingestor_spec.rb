@@ -1,6 +1,6 @@
 require "rails_helper"
 
-Rspec.describe RssIngestor do
+RSpec.describe RssIngestor do
   let(:feed_url) { "https://megaverse.forumactif.com/feed/?" }
   let(:feed_body) { file_fixture("megaverse_feed.xml").read }
 
